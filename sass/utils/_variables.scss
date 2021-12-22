@@ -1,0 +1,33 @@
+$primary-heading-color: #ffffff;
+$secondary-heading-color: #212121;
+$link-color: #212121;
+$logo-color: #2196f3;
+$logo-header: #000000;
+$logo-footer: #ffffff;
+$contact-header-color: #757575;
+$contact-footer-color: rgba(255, 255, 255, 0.6);
+$address-color: #ffffff;
+$main-text-color: #757575;
+$background-color: #ffffff;
+$footer-background: #2f303a;
+$team-background: #f5f4fa;
+$accent-color: #2196f3;
+$icons-color: #afb1b8;
+
+$primary-font: 'Roboto', sans-serif;
+$secondary-font: Raleway, sans-serif;
+
+$transition-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-bg-color: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-shadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-icon: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-border: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-transform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-social: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-clients: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-filter: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-backdrop: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);

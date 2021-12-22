@@ -1,0 +1,59 @@
+.hero__heading {
+  max-width: 360px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  // text-align: center;
+
+  color: $primary-heading-color;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 696px;
+
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+  }
+}
+
+.section-heading {
+  margin-bottom: 50px;
+  text-align: center;
+
+  color: $secondary-heading-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.advantages__heading {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+
+  color: $secondary-heading-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.team-member__name {
+  margin-bottom: 10px;
+
+  color: $secondary-heading-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.sample__heading {
+  margin-bottom: 4px;
+
+  color: $secondary-heading-color;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}

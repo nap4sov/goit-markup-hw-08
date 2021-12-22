@@ -1,0 +1,36 @@
+.examples {
+  padding-top: 0px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.examples__list {
+  display: flex;
+}
+
+.examples__thumb {
+  position: relative;
+
+  width: 370px;
+  height: 294px;
+}
+.examples__thumb:not(:last-child) {
+  margin-right: 30px;
+}
+.examples__description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-transform: uppercase;
+  color: $primary-heading-color;
+}

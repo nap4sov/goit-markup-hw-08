@@ -1,0 +1,21 @@
+.contacts__link {
+  display: inline-flex;
+  // padding-top: 32px;
+  // padding-bottom: 32px;
+  position: relative;
+  align-items: center;
+
+  color: $contact-header-color;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: $transition-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

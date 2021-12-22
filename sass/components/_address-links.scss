@@ -1,0 +1,27 @@
+.address__map {
+  color: $address-color;
+  text-decoration: none;
+  font-style: initial;
+  line-height: 1.71;
+
+  transition: $transition-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.address__contact {
+  color: $contact-footer-color;
+  text-decoration: none;
+  font-style: initial;
+  line-height: 1.71;
+
+  transition: $transition-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

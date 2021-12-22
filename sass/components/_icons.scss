@@ -1,0 +1,57 @@
+.contacts__icon {
+  margin-right: 10px;
+
+  fill: currentColor;
+}
+
+.social__icon,
+.clients__icon,
+.modal__icon {
+  fill: currentColor;
+}
+
+.subscription__icon {
+  margin-left: 10px;
+  fill: $primary-heading-color;
+}
+
+.signup__icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  fill: $logo-header;
+
+  transition: $transition-icon;
+
+  .signup__input:focus + & {
+    fill: $logo-color;
+  }
+}
+
+.icon-menu {
+  fill: $secondary-heading-color;
+
+  .menu__button:hover,
+  .menu__button:focus,
+  .menu__button:active & {
+    fill: $accent-color;
+  }
+}
+
+.icon-cross {
+  display: none;
+  fill: $secondary-heading-color;
+
+  .menu__button:hover,
+  .menu__button:focus,
+  .menu__button:active & {
+    fill: $accent-color;
+  }
+}
+.menu__button.is-open .icon-cross {
+  display: block;
+}
+.menu__button.is-open .icon-menu {
+  display: none;
+}

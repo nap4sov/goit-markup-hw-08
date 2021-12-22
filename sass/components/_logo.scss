@@ -1,0 +1,24 @@
+.logo {
+  color: $logo-color;
+  text-decoration: none;
+  font-family: $secondary-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header__logo {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.logo--header {
+  color: $logo-header;
+}
+.logo--footer {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: $logo-footer;
+}

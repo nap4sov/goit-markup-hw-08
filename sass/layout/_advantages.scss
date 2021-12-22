@@ -1,0 +1,30 @@
+.advantages {
+  margin: -15px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.advantages__item {
+  margin: 15px;
+  @media screen and (min-width: 480px) {
+    max-width: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: calc((100% - 2 * 30px) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: calc((100% - 4 * 30px) / 4);
+  }
+}
+.advantages__thumb {
+  @extend %flex-centered;
+
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: $team-background;
+  border-radius: 4px;
+}

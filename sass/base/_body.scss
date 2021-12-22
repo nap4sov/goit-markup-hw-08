@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+
+  color: $main-text-color;
+  background-color: $background-color;
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.menu-open {
+  overflow: hidden;
+}
